@@ -5,23 +5,48 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 header{
-    /* background-image: url('images/header2.jpg'); */
-    background-color: bisque;
+    background-image: url('images/header0.png');
+    /* background-color: bisque; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 700px;
     position: relative;
     
 }
 
 
-h2{
+/* h2{
     color: burlywood;
     font-size: 100px;
     padding: 30px;
-} 
+}  */
+
+.Sbar{
+  height: 44px;
+  padding-top: 22px;
+  padding-left: 33px;
+  display: flex;
+  flex-direction:row;
+  justify-content:left;
+  gap: 5px;
+
+}
+
+.Sbar input {
+  padding: 5px;
+ border: none;
+ border-bottom:1px solid #fad3bd;
+ 
+}
+
+.btn{
+border: none;
+height: 40px;
+}
 
 .overlay{
     
@@ -94,6 +119,7 @@ padding: 22px;
   opacity: 1;
 }
 .modal{
+  margin: 200px;
   position: relative;
   font-family: 'Montserrat', sans-serif;
   background-color: white;
@@ -251,7 +277,7 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 600px;
   position: relative;
   
 }

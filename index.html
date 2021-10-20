@@ -2,7 +2,8 @@
 
 <html>
     <head>
-    
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+        rel="stylesheet"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,15 +17,19 @@
 
         <header>
             
-            <nav>
+            <!-- <nav>
                 <h2>brekky</h2>
                 
-            </nav>
+            </nav> -->
 
         </header>
-        <input id ="search-text" placeholder="Name of food or, ingredients to search by" type="text">
-        <input id ="search-text2" placeholder="tag" type="text">
-        <button id="search-btn" >search</button>
+         <div class="Sbar">
+        <input id ="search-text" placeholder="food..." type="text">
+        <input id ="search-text2" placeholder="type..." type="text">
+        <!-- <button id="search-btn" >search</button> -->
+        <button type="button" id="search-btn" class="btn btn-outline-warning">search</button>
+
+</div>
         <div class="overlay" id="over">  
             
         </div>
@@ -41,7 +46,9 @@
 
         </div>
 
+        <!-- MDB -->
+        <script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
         <script src="main.js"></script>
-        <!-- <script src="test.js"></script> -->
+        
     </body>
 </html>

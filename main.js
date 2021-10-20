@@ -22,7 +22,7 @@ fetch(`https://tasty.p.rapidapi.com/recipes/list?from=0&size=20&tags=${tags}&q=$
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-host": "tasty.p.rapidapi.com",
-		"x-rapidapi-key": "62e41a0607mshcef95c3b6c98e0bp1e76d1jsnf4fcca6a5b6a"
+		"x-rapidapi-key": "6f45bb20b3msh8b06b505f7fcf88p1a7957jsne56925132b41"
 	}
 })
 
@@ -67,7 +67,7 @@ fetch(`https://tasty.p.rapidapi.com/recipes/list?from=0&size=20&tags=${tags}&q=$
                 "method": "GET",
                 "headers": {
                     "x-rapidapi-host": "tasty.p.rapidapi.com",
-                    "x-rapidapi-key": "62e41a0607mshcef95c3b6c98e0bp1e76d1jsnf4fcca6a5b6a"
+                    "x-rapidapi-key": "6f45bb20b3msh8b06b505f7fcf88p1a7957jsne56925132b41"
                 }
                 })
                 .then(function(serverPromise){
