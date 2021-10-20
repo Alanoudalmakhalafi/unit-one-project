@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HomePage</title>
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body onload="fetchig('breakfast','breakfast')" >
+
+        <header>
+            
+            <nav>
+                <h2>brekky</h2>
+                
+            </nav>
+
+        </header>
+        <input id ="search-text" placeholder="Name of food or, ingredients to search by" type="text">
+        <input id ="search-text2" placeholder="tag" type="text">
+        <button id="search-btn" >search</button>
+        <div class="overlay" id="over">  
+            
+        </div>
+        
+        <div class="modal-bg"> 
+            <div class="modal">
+              <ul id="text" >
+
+              </ul>
+              
+
+              <span class="modal-close">x</span>
+            </div>
+
+        </div>
+
+        <script src="main.js"></script>
+        <!-- <script src="test.js"></script> -->
+    </body>
+</html>
