@@ -14,7 +14,7 @@ one for searching the other one is for showing more details .
 4. Tasty API.
 
 ## Problem encountered:
-1. feching instractions form in side the results array.
+1. feching instractions form inside the results array.
 
 ## Links:
 1. link of Trello board =>https://trello.com/b/6eILqHIN/u1-project
